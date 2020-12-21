@@ -11,11 +11,18 @@ class Counter: ObservableObject{
     
     @Published var counter: Int = 0
     
+    func generateHapticFeedback() {
+        UINotificationFeedbackGenerator().notificationOccurred(.success)
+    }
+
+    
     func increment(){
         counter += 1
+        generateHapticFeedback()
     }
     
     func reset(){
         counter = 0
+        generateHapticFeedback()
     }
 }
