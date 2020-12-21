@@ -11,6 +11,9 @@
 		DBB41EB9258F1CB300872D7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41EB8258F1CB300872D7F /* ContentView.swift */; };
 		DBB41EBB258F1CB500872D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB41EBA258F1CB500872D7F /* Assets.xcassets */; };
 		DBB41EBE258F1CB500872D7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB41EBD258F1CB500872D7F /* Preview Assets.xcassets */; };
+		DBB41EC72590117400872D7F /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41EC62590117400872D7F /* Counter.swift */; };
+		DBB41ECE2590127A00872D7F /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41ECD2590127A00872D7F /* Button.swift */; };
+		DBB41ED12590196B00872D7F /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41ED02590196B00872D7F /* Label.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		DBB41EBA258F1CB500872D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBB41EBD258F1CB500872D7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBB41EBF258F1CB500872D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB41EC62590117400872D7F /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		DBB41ECD2590127A00872D7F /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		DBB41ED02590196B00872D7F /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				DBB41EBA258F1CB500872D7F /* Assets.xcassets */,
 				DBB41EBF258F1CB500872D7F /* Info.plist */,
 				DBB41EBC258F1CB500872D7F /* Preview Content */,
+				DBB41EC62590117400872D7F /* Counter.swift */,
+				DBB41ECD2590127A00872D7F /* Button.swift */,
+				DBB41ED02590196B00872D7F /* Label.swift */,
 			);
 			path = WorkoutApp;
 			sourceTree = "<group>";
@@ -140,6 +149,9 @@
 			files = (
 				DBB41EB9258F1CB300872D7F /* ContentView.swift in Sources */,
 				DBB41EB7258F1CB300872D7F /* WorkoutAppApp.swift in Sources */,
+				DBB41EC72590117400872D7F /* Counter.swift in Sources */,
+				DBB41ED12590196B00872D7F /* Label.swift in Sources */,
+				DBB41ECE2590127A00872D7F /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
