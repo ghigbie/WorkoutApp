@@ -58,14 +58,13 @@
 		DBB41EB5258F1CB300872D7F /* WorkoutApp */ = {
 			isa = PBXGroup;
 			children = (
+				DBB41ED4259026A100872D7F /* Models */,
+				DBB41ED32590267700872D7F /* Views */,
 				DBB41EB6258F1CB300872D7F /* WorkoutAppApp.swift */,
 				DBB41EB8258F1CB300872D7F /* ContentView.swift */,
 				DBB41EBA258F1CB500872D7F /* Assets.xcassets */,
 				DBB41EBF258F1CB500872D7F /* Info.plist */,
 				DBB41EBC258F1CB500872D7F /* Preview Content */,
-				DBB41EC62590117400872D7F /* Counter.swift */,
-				DBB41ECD2590127A00872D7F /* Button.swift */,
-				DBB41ED02590196B00872D7F /* Label.swift */,
 			);
 			path = WorkoutApp;
 			sourceTree = "<group>";
@@ -76,6 +75,23 @@
 				DBB41EBD258F1CB500872D7F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBB41ED32590267700872D7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBB41ECD2590127A00872D7F /* Button.swift */,
+				DBB41ED02590196B00872D7F /* Label.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBB41ED4259026A100872D7F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DBB41EC62590117400872D7F /* Counter.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
