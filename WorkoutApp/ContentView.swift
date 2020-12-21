@@ -17,13 +17,13 @@ struct ContentView: View {
             HStack(){
                 VStack(){
                     Button(color: Color(.systemBlue))
-                    Label(label: "PUSH-UPS")
+                    Label(label: "PULL-UPS")
                 }//VStack
                 Spacer()
-                       .frame(width: 100)
+                       .frame(width: 60)
                 VStack(){
                     Button(color: Color(.systemYellow))
-                    Label(label: "PUSH-UPS")
+                    Label(label: "SIT-UPS")
                 }//VStack
             }//HStack
         }//VStack
